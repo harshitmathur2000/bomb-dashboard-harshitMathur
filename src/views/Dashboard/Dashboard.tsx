@@ -1,6 +1,7 @@
 import React, {useCallback, useMemo} from 'react';
-const TITLE = 'bomb.money | Bonds'
 import {Route, Switch, useRouteMatch} from 'react-router-dom';
+const TITLE = 'bomb.money | Bonds'
+
 const Dashboard: React.FC = () => {
     return(
         <Switch>
